@@ -23,7 +23,7 @@ import java.util.Date;
 @Slf4j
 @EnableConfigurationProperties(MinIOConfigProperties.class)
 @Import(MinIOConfig.class)
-public class MinIOFileStorageService implements FileStorageService {
+public class MinIOFileStorageServiceImpl implements FileStorageService {
 
     @Autowired
     private MinioClient minioClient;
@@ -71,6 +71,8 @@ public class MinIOFileStorageService implements FileStorageService {
             urlPath.append(separator+minIOConfigProperties.getBucket());
             urlPath.append(separator);
             urlPath.append(filePath);
+
+            log.info("MinIOFileStorageServiceImpl  uploadImgFile{}", urlPath);
             return urlPath.toString();
         }catch (Exception ex){
             log.error("minio put file error.",ex);

@@ -4,16 +4,20 @@ package com.heima.wemedia.gateway.filter;
 import com.heima.wemedia.gateway.util.AppJwtUtil;
 import io.jsonwebtoken.Claims;
 import lombok.extern.slf4j.Slf4j;
+import lombok.val;
 import org.apache.commons.lang.StringUtils;
 import org.springframework.cloud.gateway.filter.GatewayFilterChain;
 import org.springframework.cloud.gateway.filter.GlobalFilter;
 import org.springframework.core.Ordered;
+import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.server.reactive.ServerHttpRequest;
 import org.springframework.http.server.reactive.ServerHttpResponse;
 import org.springframework.stereotype.Component;
 import org.springframework.web.server.ServerWebExchange;
 import reactor.core.publisher.Mono;
+
+import java.util.function.Consumer;
 
 @Component
 @Slf4j
@@ -33,6 +37,7 @@ public class AuthorizeFilter implements Ordered, GlobalFilter {
         //3.获取token
         String token = request.getHeaders().getFirst("token");
 
+        log.info("token:{}",token);;
         //4.判断token是否存在
         if(StringUtils.isBlank(token)){
             response.setStatusCode(HttpStatus.UNAUTHORIZED);
@@ -48,12 +53,15 @@ public class AuthorizeFilter implements Ordered, GlobalFilter {
                 response.setStatusCode(HttpStatus.UNAUTHORIZED);
                 return response.setComplete();
             }
-            //   获取claimsBody中的id对象   用户信息
-            Object id = claimsBody.get("userId");
-            // 根据id对象生成字符串并添加到请求的headers中
-            ServerHttpRequest httpRequest = request.mutate().headers(headers -> headers.add("id", id.toString())).build();
-            // 根据httpRequest重新构建交换机，将新的请求对象应用到交换机上 重置请求
-            exchange.mutate().request(httpRequest);
+            //  获取claimsBody中的id对象   用户信息
+            //获得token解析后中的用户信息
+            Object userId = claimsBody.get("id");
+            //在header中添加新的信息
+            ServerHttpRequest serverHttpRequest = request.mutate().headers(httpHeaders -> {
+                httpHeaders.add("userId", userId + "");
+            }).build();
+            //重置header
+            exchange.mutate().request(serverHttpRequest).build();
 
 
 

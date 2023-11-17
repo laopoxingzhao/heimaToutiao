@@ -5,7 +5,39 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="604da608-9ffe-4565-807e-d184b0b7fdd0" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/heima-leadnews-model/src/main/java/com/heima/model/wemedia/dto/WmMaterialDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/heima-leadnews-model/src/main/java/com/heima/model/wemedia/dto/WmNewsPageReqDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/heima-leadnews-model/src/main/java/com/heima/model/wemedia/pojo/WmChannel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/heima-leadnews-model/src/main/java/com/heima/model/wemedia/pojo/WmNews.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/heima-leadnews-model/src/main/java/com/heima/model/wemedia/pojo/WmNewsMaterial.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/heima-leadnews-service/heima-leadnews-wemedia/src/main/java/com/heima/wemedia/controller/v1/WmNewsController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/heima-leadnews-service/heima-leadnews-wemedia/src/main/java/com/heima/wemedia/controller/v1/WmchannelController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/heima-leadnews-service/heima-leadnews-wemedia/src/main/java/com/heima/wemedia/mapper/WmChannelMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/heima-leadnews-service/heima-leadnews-wemedia/src/main/java/com/heima/wemedia/mapper/WmNewsMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/heima-leadnews-service/heima-leadnews-wemedia/src/main/java/com/heima/wemedia/mapper/WmNewsMaterialMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/heima-leadnews-service/heima-leadnews-wemedia/src/main/java/com/heima/wemedia/service/WmChannelService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/heima-leadnews-service/heima-leadnews-wemedia/src/main/java/com/heima/wemedia/service/WmNewsService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/heima-leadnews-service/heima-leadnews-wemedia/src/main/java/com/heima/wemedia/service/impl/WmChannelServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/heima-leadnews-service/heima-leadnews-wemedia/src/main/java/com/heima/wemedia/service/impl/WmNewsServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/heima-leadnews-service/heima-leadnews-wemedia/src/main/resources/mapper/WmNewsMaterialMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima-leadnews-basic/heima-file-starter/src/main/java/com/heima/file/service/impl/MinIOFileStorageService.java" beforeDir="false" afterPath="$PROJECT_DIR$/heima-leadnews-basic/heima-file-starter/src/main/java/com/heima/file/service/impl/MinIOFileStorageServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima-leadnews-basic/heima-file-starter/src/main/resources/META-INF/spring.factories" beforeDir="false" afterPath="$PROJECT_DIR$/heima-leadnews-basic/heima-file-starter/src/main/resources/META-INF/spring.factories" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima-leadnews-basic/heima-file-starter/target/classes/META-INF/spring.factories" beforeDir="false" afterPath="$PROJECT_DIR$/heima-leadnews-basic/heima-file-starter/target/classes/META-INF/spring.factories" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima-leadnews-basic/heima-file-starter/target/classes/com/heima/file/service/impl/MinIOFileStorageService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima-leadnews-gateway/heima-leadnews-wemedia-gateway/src/main/java/com/heima/wemedia/gateway/filter/AuthorizeFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/heima-leadnews-gateway/heima-leadnews-wemedia-gateway/src/main/java/com/heima/wemedia/gateway/filter/AuthorizeFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima-leadnews-gateway/heima-leadnews-wemedia-gateway/src/main/java/com/heima/wemedia/gateway/util/AppJwtUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/heima-leadnews-gateway/heima-leadnews-wemedia-gateway/src/main/java/com/heima/wemedia/gateway/util/AppJwtUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima-leadnews-gateway/heima-leadnews-wemedia-gateway/target/classes/com/heima/wemedia/gateway/filter/AuthorizeFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/heima-leadnews-gateway/heima-leadnews-wemedia-gateway/target/classes/com/heima/wemedia/gateway/filter/AuthorizeFilter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima-leadnews-gateway/heima-leadnews-wemedia-gateway/target/classes/com/heima/wemedia/gateway/util/AppJwtUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/heima-leadnews-gateway/heima-leadnews-wemedia-gateway/target/classes/com/heima/wemedia/gateway/util/AppJwtUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima-leadnews-service/heima-leadnews-wemedia/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/heima-leadnews-service/heima-leadnews-wemedia/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima-leadnews-service/heima-leadnews-wemedia/src/main/java/com/heima/wemedia/WemediaApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/heima-leadnews-service/heima-leadnews-wemedia/src/main/java/com/heima/wemedia/WemediaApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima-leadnews-service/heima-leadnews-wemedia/src/main/java/com/heima/wemedia/controller/v1/WmMaterialController.java" beforeDir="false" afterPath="$PROJECT_DIR$/heima-leadnews-service/heima-leadnews-wemedia/src/main/java/com/heima/wemedia/controller/v1/WmMaterialController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima-leadnews-service/heima-leadnews-wemedia/src/main/java/com/heima/wemedia/interceptor/WmTokenInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/heima-leadnews-service/heima-leadnews-wemedia/src/main/java/com/heima/wemedia/interceptor/WmTokenInterceptor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima-leadnews-service/heima-leadnews-wemedia/src/main/java/com/heima/wemedia/service/WmMaterialService.java" beforeDir="false" afterPath="$PROJECT_DIR$/heima-leadnews-service/heima-leadnews-wemedia/src/main/java/com/heima/wemedia/service/WmMaterialService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima-leadnews-service/heima-leadnews-wemedia/src/main/java/com/heima/wemedia/service/impl/WmMaterialServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/heima-leadnews-service/heima-leadnews-wemedia/src/main/java/com/heima/wemedia/service/impl/WmMaterialServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima-leadnews-service/heima-leadnews-wemedia/target/classes/com/heima/wemedia/WemediaApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/heima-leadnews-service/heima-leadnews-wemedia/target/classes/com/heima/wemedia/WemediaApplication.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,9 +94,10 @@
     "RequestMappingsPanelOrder1": "1",
     "RequestMappingsPanelWidth0": "75",
     "RequestMappingsPanelWidth1": "75",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "1.8",
-    "last_opened_file_path": "E:/Java/heima-leadnews/heima-leadnews-model/src/main/java/com/heima/model",
+    "last_opened_file_path": "E:/Java/heima-leadnews/heima-leadnews-service/heima-leadnews-wemedia/src/main/java/com/heima/wemedia/service/impl",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -74,7 +107,7 @@
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.43958575",
     "run.code.analysis.last.selected.profile": "pProject Default",
-    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
+    "settings.editor.selected.configurable": "vcs.Git",
     "spring.configuration.checksum": "ec5b64530571697a68794bdba122cf19"
   }
 }]]></component>
@@ -86,11 +119,11 @@
       <recent name="com.heima.user" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Java\heima-leadnews\heima-leadnews-service\heima-leadnews-wemedia\src\main\java\com\heima\wemedia\service\impl" />
+      <recent name="E:\Java\heima-leadnews\heima-leadnews-service\heima-leadnews-wemedia\src\main\resources\mapper" />
+      <recent name="E:\Java\heima-leadnews\heima-leadnews-service\heima-leadnews-wemedia\src\main\java\com\heima\wemedia\mapper" />
+      <recent name="E:\Java\heima-leadnews\heima-leadnews-service\heima-leadnews-wemedia\src\main\java\com\heima\wemedia\service" />
       <recent name="E:\Java\heima-leadnews\heima-leadnews-model\src\main\java\com\heima\model" />
-      <recent name="E:\Java\heima-leadnews\heima-leadnews-gateway" />
-      <recent name="E:\Java\heima-leadnews\heima-leadnews-service" />
-      <recent name="E:\Java\heima-leadnews\heima-leadnews-service\heima-leadnews-article\src\main\resources" />
-      <recent name="E:\Java\heima-leadnews\heima-leadnews-test\minio-demo\src\main\resources\templates" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\Java\heima-leadnews\heima-leadnews-gateway\heima-leadnews-app-gatewaty\src\main\java" />
@@ -125,12 +158,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AppGatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" folderName="gateway" temporary="true" nameIsGenerated="true">
-      <module name="heima-leadnews-app-gatewaty" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.heima.app.gateway.AppGatewayApplication" />
+    <configuration name="AppJwtUtil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.heima.wemedia.gateway.util.AppJwtUtil" />
+      <module name="heima-leadnews-wemedia-gateway" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.heima.app.gateway.*" />
+          <option name="PATTERN" value="com.heima.wemedia.gateway.util.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -193,10 +226,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Spring Boot.WemediaApplication" />
+        <item itemvalue="Spring Boot.WemediaGatewayAplication" />
+        <item itemvalue="应用程序.AppJwtUtil" />
         <item itemvalue="Spring Boot.UserApplication" />
         <item itemvalue="Spring Boot.ArticleApplication" />
-        <item itemvalue="Spring Boot.WemediaGatewayAplication" />
-        <item itemvalue="Spring Boot.AppGatewayApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -237,7 +270,8 @@
       <workItem from="1700059562406" duration="1345000" />
       <workItem from="1700097721679" duration="102000" />
       <workItem from="1700103480134" duration="6227000" />
-      <workItem from="1700136832982" duration="101000" />
+      <workItem from="1700136832982" duration="1786000" />
+      <workItem from="1700206809362" duration="14843000" />
     </task>
     <servers />
   </component>
@@ -254,6 +288,22 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/heima-leadnews-service/heima-leadnews-wemedia/src/main/java/com/heima/wemedia/controller/v1/WmMaterialController.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/heima-leadnews-service/heima-leadnews-wemedia/src/main/java/com/heima/wemedia/controller/v1/WmMaterialController.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
