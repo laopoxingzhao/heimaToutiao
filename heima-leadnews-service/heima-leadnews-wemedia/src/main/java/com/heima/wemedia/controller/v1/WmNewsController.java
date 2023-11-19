@@ -23,4 +23,9 @@ public class WmNewsController {
         return  wmNewsService.findAll(dto);
     }
 
+    @PostMapping("submit")
+    public  ResponseResult submit(@RequestBody WmNewsPageReqDto dto){
+        return null;
+    }
+
 }
