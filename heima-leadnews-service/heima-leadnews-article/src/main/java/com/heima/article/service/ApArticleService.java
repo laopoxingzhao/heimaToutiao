@@ -1,6 +1,7 @@
 package com.heima.article.service;
 
 import com.baomidou.mybatisplus.extension.service.IService;
+import com.heima.model.article.dto.ArticeDto;
 import com.heima.model.article.dto.ArticleHomeDto;
 import com.heima.model.article.pojo.ApArticle;
 import com.heima.model.common.dtos.ResponseResult;
@@ -17,4 +18,10 @@ public interface ApArticleService extends IService<ApArticle> {
      */
     ResponseResult load(Short loadtype, ArticleHomeDto dto);
 
+    /**
+     * 保存app端相关文章
+     * @param dto
+     * @return
+     */
+    ResponseResult saveArticle(ArticeDto dto) ;
 }
