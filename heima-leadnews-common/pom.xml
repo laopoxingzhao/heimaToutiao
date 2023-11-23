@@ -91,6 +91,8 @@
             <groupId>com.aliyun</groupId>
             <artifactId>aliyun-java-sdk-green</artifactId>
         </dependency>
+
+
         <!--HBase-->
         <dependency>
             <groupId>org.apache.hbase</groupId>
