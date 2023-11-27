@@ -3,7 +3,7 @@ package com.heima.utils.common;
 
 import java.util.*;
 
-public class SensitiveWordUtil {
+public class  SensitiveWordUtil {
 
     public static Map<String, Object> dictionaryMap = new HashMap<>();
 

@@ -22,7 +22,7 @@ import java.util.*;
 @Getter
 @Setter
 @Component
-@ConfigurationProperties(prefix = "com/heima/common/aliyun")
+@ConfigurationProperties(prefix = "aliyun")
 public class GreenTextScan {
 
     private String accessKeyId;

@@ -92,6 +92,12 @@
             <artifactId>aliyun-java-sdk-green</artifactId>
         </dependency>
 
+        <dependency>
+            <groupId>net.sourceforge.tess4j</groupId>
+            <artifactId>tess4j</artifactId>
+            <version>5.8.0</version>
+        </dependency>
+
 
         <!--HBase-->
         <dependency>

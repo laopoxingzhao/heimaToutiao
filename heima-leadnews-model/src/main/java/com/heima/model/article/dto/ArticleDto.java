@@ -11,7 +11,7 @@ import lombok.Data;
  * @Version 1.0
  */
 @Data
-public class ArticeDto extends ApArticle {
+public class ArticleDto extends ApArticle {
 
     /**
      * 内容
