@@ -15,6 +15,7 @@
         <module>freemarker-demo</module>
         <module>minio-demo</module>
         <module>tess4j-test</module>
+        <module>redistest</module>
     </modules>
 
     <properties>

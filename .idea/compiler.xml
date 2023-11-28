@@ -19,9 +19,13 @@
         <module name="heima-leadnews-app-gatewaty" />
         <module name="heima-leadnews-utils" />
         <module name="heima-leadnews-common" />
+        <module name="redistest" />
         <module name="heima-leadnews-model" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="heima-leadnews-schedule" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
@@ -35,13 +39,15 @@
       <module name="heima-leadnews-feign-api" options="-parameters" />
       <module name="heima-leadnews-gateway" options="" />
       <module name="heima-leadnews-model" options="-parameters" />
-      <module name="heima-leadnews-service" options="" />
+      <module name="heima-leadnews-schedule" options="-parameters" />
+      <module name="heima-leadnews-service" options="-parameters" />
       <module name="heima-leadnews-test" options="" />
       <module name="heima-leadnews-user" options="-parameters" />
       <module name="heima-leadnews-utils" options="-parameters" />
       <module name="heima-leadnews-wemedia" options="-parameters" />
       <module name="heima-leadnews-wemedia-gateway" options="-parameters" />
       <module name="minio-demo" options="-parameters" />
+      <module name="redistest" options="-parameters" />
       <module name="tess4j-test" options="-parameters" />
     </option>
   </component>

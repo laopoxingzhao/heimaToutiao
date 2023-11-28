@@ -10,3 +10,24 @@ spring:
       config:
         server-addr: 192.168.142.1:8848
         file-extension: yml
+
+aliyun:
+  accessKeyId: LTAI5tCWHCcfvqQzu8k2oKmX
+  secret: auoKUFsghimbfVQHpy7gtRyBkoR4vc
+  #aliyun.scenes=porn,terrorism,ad,qrcode,live,logo
+  scenes: terrorism
+
+feign:
+  # 开启feign对hystrix熔断降级的支持
+  hystrix:
+    enabled: true
+  # 修改调用超时时间
+  client:
+    config:
+      default:
+        connectTimeout: 2000
+        readTimeout: 2000
+
+tess4j:
+  data-path: E:\Java\heima-leadnews\heima-leadnews-feign-api\src\main\resources
+  language: chi_sim

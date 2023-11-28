@@ -18,7 +18,7 @@ public class Application {
 //创建实例
         ITesseract tesseract = new Tesseract();
 //设置字体库路径
-        tesseract.setDatapath("E:\\Java\\heima-leadnews\\heima-leadnews-feign-api\\src\\main\\resources");
+        tesseract.setDatapath("E:\\Java\\heima-leadnews\\heima-leadnews-test\\tess4j-test\\src\\main\\resources");
 //设置语言-->简体中文
         tesseract.setLanguage("chi_sim");
 //识别图片

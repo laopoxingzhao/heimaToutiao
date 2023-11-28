@@ -1,14 +1,23 @@
 #全局端口定义server:
 # 全局字符集设置
 spring:
-  http:
-    encoding:
-      force: true
-      charset: utf-8
-      enabled: true
+#  http:
+#    encoding:
+#      force: true
+#      charset: utf-8
+#      enabled: true
   aop:
     proxy-target-class: true
+  redis:
+      host: 192.168.31.146
+      password: zhaoyuyu102
+      port: 6379
 server:
   tomcat:
     uri-encoding: utf-8
+  servlet:
+    encoding:
+      force: true
+      enabled: true
+      charset: utf-8
 
